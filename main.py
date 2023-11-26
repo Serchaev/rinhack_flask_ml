@@ -68,5 +68,5 @@ def calc():
 
 
 if __name__ == '__main__':
-    loaded_model = joblib.load('RandomForest_auc-roc-0.9369.joblib')
+    loaded_model = joblib.load('GradientBoosting_auc-roc-0.9466.joblib')
     app.run(host='0.0.0.0', port=25565)
